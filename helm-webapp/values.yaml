@@ -5,6 +5,4 @@ service:
   port: 80
   targetPort: 80
   allocateLoadBalancerNodePorts: false   # prevents stray nodePorts on LB services
-  # AKS internal LB (optional)
-  annotations:
-    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+
